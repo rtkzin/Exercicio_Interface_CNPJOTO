@@ -8,9 +8,7 @@ class PessoaFisica extends Pessoa implements Mamifero {
         return quantidadeDeOlhos;
     }
 
-    // Adicione este método, pois ele é requerido pela interface Mamifero
     public int getQuantidadeDePernas() {
-        // Defina a quantidade de pernas para uma pessoa física
         return 2;
     }
 }
